@@ -83,4 +83,9 @@ Route::get('/test',function (){
 
 Route::get('sample/{area}/{start}/{end}','HomeController@countPatientChart2');
 
+Route::get('homis',function(){
+    $data = \App\Homis::limit(10)->get();
+    return $data;
+});
+
 

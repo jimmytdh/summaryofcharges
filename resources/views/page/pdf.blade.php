@@ -15,12 +15,12 @@
         body {
             margin: 0px;
             font-family: "Helvetica";
-            font-size: 10px;
-            line-height: 10px;
+            font-size: 9px;
+            line-height: 9px;
         }
 
         .header { text-align: center; }
-        .info { margin-top: 10px; }
+        .info { margin-top: 7px; }
         h3 { margin-bottom: 3px; font-size: 1.4em; }
         .table-charge {
             border: 1px solid #000;
@@ -28,7 +28,7 @@
 
         td,th {
             font-size: 9px;
-            padding:3px 5px;
+            padding:3px 4px;
         }
         td.underline {
             border-bottom: 0.3px dashed #000;
@@ -36,7 +36,7 @@
         .doh_logo, .tdh_logo { position: absolute; }
         .doh_logo {  width:55px; left: 5px; }
         .tdh_logo {  width:58px; right: 5px; top:3px; }
-        .serial_no { text-align: right; margin-top: 15px; font-weight: bold; font-size: 14px; }
+        .serial_no { text-align: right; margin-top: 15px; font-weight: bold; font-size: 13px; }
         .divider {
             padding: 5px;
             top: 0px;

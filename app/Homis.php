@@ -8,6 +8,11 @@ class Homis extends Model
 {
     protected $connection = 'homis';
     //hperson - list of patients
-    //in
-    protected $table = 'hperson';
+    //hadmlog - admitted
+    //hpatroom - room
+    //user_acc - user accounts
+    //hpersonal - personal info
+    //hdept - department
+
+    protected $table = 'hdept';
 }
